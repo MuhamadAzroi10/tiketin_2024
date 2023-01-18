@@ -1,0 +1,18 @@
+<svg width="1206" height="306" viewBox="0 0 1206 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_20_221" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1206" height="306">
+<rect width="1206" height="306" rx="12" fill="url(#paint0_linear_20_221)"/>
+</mask>
+<g mask="url(#mask0_20_221)">
+<rect width="1206" height="306" rx="12" fill="#FAFAFA"/>
+<ellipse opacity="0.05" cx="-23.8169" cy="413.834" rx="342.553" ry="306.834" fill="#919192"/>
+<ellipse opacity="0.05" cx="-94.4465" cy="473.867" rx="342.553" ry="306.834" fill="#919192"/>
+<ellipse opacity="0.05" cx="1189.04" cy="447.833" rx="342.553" ry="306.834" transform="rotate(-105 1189.04 447.833)" fill="#919192"/>
+<ellipse opacity="0.05" cx="1265.31" cy="500.519" rx="342.553" ry="306.834" transform="rotate(-105 1265.31 500.519)" fill="#919192"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_20_221" x1="30.0176" y1="9.58861" x2="1195.8" y2="353.871" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8E4B"/>
+<stop offset="1" stop-color="#EC5A04"/>
+</linearGradient>
+</defs>
+</svg>
