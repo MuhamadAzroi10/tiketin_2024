@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/beranda/css/landingPage.css" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- botstrap -->
+    <title>Tiketin</title>
+  </head>
+  <body>
+    <div class="nav_top">
+      <div class="wraping_inner">
+        <div class="menu">
+          <a href="#">Tentang Kami</a>
+          <a href="#">Cara Buat Event</a>
+          <a href="#">Artikel</a>
+          <a href="#">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav_bottom">
+      <div class="wraping_inner nav_flex_display">
+        <div class="left">
+          <div class="logo">
+            <img src="../style/images_universal/logo/logo_orange.svg" alt="" />
+          </div>
+          <div class="search">
+            <input type="text" />
+            <img src="../style/images_universal/icon/search.svg" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <div class="menu">
+            <a class="ivent" href="#">Buat Event</a>
+            <button
+              type="button"
+              class="login"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Login
+            </button>
+            <a class="daftar" href="#">Daftar</a>
+            <i class="fas fa-bars hamburger" id="btn"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigate_beranda">
+      <div class="text">
+        Halaman Utama / Event / Musik /
+        <span>PRAMBANAN MUSIK SENJA: LOVE IN JOGJA</span>
+      </div>
+    </div>
+
+    <div class="wrap_detail_event dua">
+      <div class="left">
+        <div class="container_content_pendaftaran">
+          <div class="top">
+            <img
+              class="banner_pendaftaran"
+              src="../style/beranda/img/example/banner_sdetail.svg"
+              alt=""
+            />
+            <div class="info">
+              <div class="tittle">PRAMBANAN MUSIK SENJA: LOVE IN JOGJA</div>
+
+              <div class="detail_item_card">
+                <div class="text">Seminar - Musik</div>
+              </div>
+              <div class="detail_item_card">
+                <img src="../style/images_universal/icon/calender.svg" alt="" />
+                <div class="text">16 Jan 2023</div>
+              </div>
+              <div class="detail_item_card">
+                <img src="../style/images_universal/icon/location.svg" alt="" />
+                <div class="text">Online</div>
+              </div>
+              <div class="detail_item_card">
+                <img src="../style/images_universal/icon/jam.svg" alt="" />
+                <div class="text">20:00 - 21.30 WIB</div>
+              </div>
+            </div>
+          </div>
+
+          <table class="table_header_detail_pembelian">
+            <tr>
+              <td><b>Tiket</b></td>
+              <td><b>Harga</b></td>
+              <td><b>Jumlah</b></td>
+              <td align="right"><b>Total</b></td>
+            </tr>
+            <tr>
+              <td class="flex_custom">
+                <img src="../style/beranda/img/tiket.svg" alt="" />
+                <p>Pre Sale 3</p>
+              </td>
+              <td>Rp 400.000</td>
+              <td>x2</td>
+              <td align="right">Rp 800.000</td>
+            </tr>
+          </table>
+        </div>
+        <br />
+
+        <div class="container_content_pendaftaran">
+          <div class="flex_masuk_login">
+            <div class="flex_children">
+              <img
+                src="../style/images_universal/icon/masuk_login.svg"
+                alt=""
+              />
+              <div class="center">
+                <h6>Masuk ke Akunmu untuk Memudahkan Pengisian Data</h6>
+                <p>
+                  Silahkan masuk ke akunmu yang telah terdaftar untuk memudahkan
+                  pengisian data
+                </p>
+              </div>
+            </div>
+
+            <button>Masuk</button>
+          </div>
+        </div>
+        <br />
+
+        <div class="container_content_pendaftaran">
+          <h5>Data Pemesan 1</h5>
+          <div class="wrap_container_input">
+            <label for="email">Nama Lengkap <span>(sesuai KTP)</span> <span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="Username" type="text" />
+            </div>
+          </div>
+          <div class="wrap_container_input">
+            <label for="email">Email <span>(tiket akan dikirimkan via email)<span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="Email" type="text" />
+            </div>
+          </div>
+          <div class="wrap_container_input">
+            <label for="email">Nomor HP<span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="No HP" type="text" />
+            </div>
+          </div>
+          <div class="wrap_container_input">
+            <label for="email">Tanggal Lahir <span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="Tanggal Lahir" type="date" />
+            </div>
+          </div>
+          <div class="wrap_container_input">
+            <label for="email">Jenis Kelamin <span class="danger">*</span></label>
+            <div class="wrap_input">
+              <select name="cars" id="cars">
+                <option value="volvo">Laki Laki</option>
+                <option value="saab">Perempuan</option>
+              </select>
+            </div>
+          </div>
+          <h5>Data Pemesan 1</h5>
+          <div class="wrap_container_input">
+            <label for="email">Nama Lengkap <span>(sesuai KTP)</span> <span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="Username" type="text" />
+            </div>
+          </div> 
+          <div class="wrap_container_input">
+            <label for="email">Email <span>(tiket akan dikirimkan via email)<span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="Email" type="text" />
+            </div>
+          </div>
+          <div class="wrap_container_input">
+            <label for="email">Nomor HP<span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="No HP" type="text" />
+            </div>
+          </div>
+          <div class="wrap_container_input">
+            <label for="email">Tanggal Lahir <span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="Tanggal Lahir" type="date" />
+            </div>
+          </div> 
+          <div class="wrap_container_input">
+            <label for="email">Jenis Kelamin <span class="danger">*</span></label>
+            <div class="wrap_input">
+              <select name="cars" id="cars">
+                <option value="volvo">Laki Laki</option>
+                <option value="saab">Perempuan</option>
+              </select>
+            </div>
+          </div> 
+          <h5>Data Pemesan 1</h5>
+          <div class="wrap_container_input">
+            <label for="email">Nama Lengkap <span>(sesuai KTP)</span> <span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="Username" type="text" />
+            </div>
+          </div> 
+          <div class="wrap_container_input">
+            <label for="email">Email <span>(tiket akan dikirimkan via email)<span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="Email" type="text" />
+            </div>
+          </div> 
+          <div class="wrap_container_input">
+            <label for="email">Nomor HP<span class="danger">*</span></label>
+            <div class="wrap_input">
+              <input placeholder="No HP" type="text" />
+            </div>
+          </div>
+          <div class="wrap_container_input">
+            <label for="email"
+              >Tanggal Lahir <span class="danger">*</span></label
+            >
+            <div class="wrap_input">
+              <input placeholder="Tanggal Lahir" type="date" />
+            </div>
+          </div>
+          <div class="wrap_container_input">
+            <label for="email"
+              >Jenis Kelamin <span class="danger">*</span></label
+            >
+            <div class="wrap_input">
+              <select name="cars" id="cars">
+                <option value="volvo">Laki Laki</option>
+                <option value="saab">Perempuan</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="container_content_detail">
+          <div class="container_content">
+            <div class="tittle">Detail Pesanan</div>
+            <div class="wrap_promo_detail_pembelian"  
+              class="login"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdropdua">
+              <div class="left">
+                  <img src="../style/images_universal/icon/diskon.svg" alt="">
+                  <div class="text">Pakai promo</div>
+              </div>
+              <div class="arrow_icn">
+                  <img src="../style/images_universal/icon/arrow_right.svg" alt="">
+              </div>
+            </div>
+  
+            <div class="wrap_info_detail_pembelian">
+              <div class="ask">Harga Tiket</div>
+              <div class="answer">Rp 800.000</div>
+            </div>
+            <div class="wrap_info_detail_pembelian">
+              <div class="ask">Biaya Layanan</div>
+              <div class="answer">Rp 10.000</div>
+            </div>
+            <div class="wrap_info_detail_pembelian">
+              <div class="ask">DISC15 (-15%)</div>
+              <div class="answer diskon">-121.500</div>
+            </div>
+  
+            <hr>
+  
+            <div class="wrap_total_pembelian">
+              <p class="ask">Total</p>
+              <p class="answer">Rp. 830,000</p>
+            </div>
+  
+            <button>Beli Tiket</button>
+          </div>
+            
+          <br/>
+  
+          <div class="time_pembelian_sementara">
+            <img src="../style/images_universal/icon/time_pembelian.svg" alt="">
+            <div class="text">Selesaikan pesananmu dalam <b>15:00</b></div>
+          </div>
+        </div>
+      
+      </div> 
+    </div>
+    <br /><br />
+
+    <div class="content_card">
+      <div class="wraping_inner">
+        <div class="tittle">Rekomendasi Untukmu</div>
+        <div class="wrap_card owl-carousel">
+          <!-- loop -->
+
+          <a href="#">
+            <div class="item_card">
+              <div class="banner">
+                <img
+                  src="../style/beranda/img/example/banner_card.svg"
+                  alt=""
+                />
+              </div>
+              <div class="information">
+                <div class="tittle_item_card">
+                  MEREKA DI SEKITAR KITA - RUMAH KOSONG CHAPTER 1
+                </div>
+                <div class="detail_item_card">
+                  <img src="../style/images_universal/icon/oleh.svg" alt="" />
+                  <div class="text">Oleh <span>MOP</span></div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/calender.svg"
+                    alt=""
+                  />
+                  <div class="text">16 Jan 2023</div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/location.svg"
+                    alt=""
+                  />
+                  <div class="text">Online</div>
+                </div>
+                <div class="price">Mulai dari <span>Rp100.000</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="item_card">
+              <div class="banner">
+                <img
+                  src="../style/beranda/img/example/banner_card.svg"
+                  alt=""
+                />
+              </div>
+              <div class="information">
+                <div class="tittle_item_card">
+                  MEREKA DI SEKITAR KITA - RUMAH KOSONG CHAPTER 1
+                </div>
+                <div class="detail_item_card">
+                  <img src="../style/images_universal/icon/oleh.svg" alt="" />
+                  <div class="text">Oleh <span>MOP</span></div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/calender.svg"
+                    alt=""
+                  />
+                  <div class="text">16 Jan 2023</div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/location.svg"
+                    alt=""
+                  />
+                  <div class="text">Online</div>
+                </div>
+                <div class="price">Mulai dari <span>Rp100.000</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="item_card">
+              <div class="banner">
+                <img
+                  src="../style/beranda/img/example/banner_card.svg"
+                  alt=""
+                />
+              </div>
+              <div class="information">
+                <div class="tittle_item_card">
+                  MEREKA DI SEKITAR KITA - RUMAH KOSONG CHAPTER 1
+                </div>
+                <div class="detail_item_card">
+                  <img src="../style/images_universal/icon/oleh.svg" alt="" />
+                  <div class="text">Oleh <span>MOP</span></div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/calender.svg"
+                    alt=""
+                  />
+                  <div class="text">16 Jan 2023</div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/location.svg"
+                    alt=""
+                  />
+                  <div class="text">Online</div>
+                </div>
+                <div class="price">Mulai dari <span>Rp100.000</span></div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="item_card">
+              <div class="banner">
+                <img
+                  src="../style/beranda/img/example/banner_card.svg"
+                  alt=""
+                />
+              </div>
+              <div class="information">
+                <div class="tittle_item_card">
+                  MEREKA DI SEKITAR KITA - RUMAH KOSONG CHAPTER 1
+                </div>
+                <div class="detail_item_card">
+                  <img src="../style/images_universal/icon/oleh.svg" alt="" />
+                  <div class="text">Oleh <span>MOP</span></div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/calender.svg"
+                    alt=""
+                  />
+                  <div class="text">16 Jan 2023</div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/location.svg"
+                    alt=""
+                  />
+                  <div class="text">Online</div>
+                </div>
+                <div class="price">Mulai dari <span>Rp100.000</span></div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item_card">
+              <div class="banner">
+                <img
+                  src="../style/beranda/img/example/banner_card.svg"
+                  alt=""
+                />
+              </div>
+              <div class="information">
+                <div class="tittle_item_card">
+                  MEREKA DI SEKITAR KITA - RUMAH KOSONG CHAPTER 1
+                </div>
+                <div class="detail_item_card">
+                  <img src="../style/images_universal/icon/oleh.svg" alt="" />
+                  <div class="text">Oleh <span>MOP</span></div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/calender.svg"
+                    alt=""
+                  />
+                  <div class="text">16 Jan 2023</div>
+                </div>
+                <div class="detail_item_card">
+                  <img
+                    src="../style/images_universal/icon/location.svg"
+                    alt=""
+                  />
+                  <div class="text">Online</div>
+                </div>
+                <div class="price">Mulai dari <span>Rp100.000</span></div>
+              </div>
+            </div>
+          </a>
+
+          <!-- end loop -->
+        </div>
+      </div>
+    </div>
+
+    <div class="content_add_event">
+      <div class="wraping_inner">
+        <div class="box">
+          <h1>Buat Event Kamu dengan Mudah di Tiketin Sekarang Juga!</h1>
+          <p>
+            Dapatkan berbagai fasilitas dan kemudahan untuk Event Owner di
+            Tiketin
+          </p>
+          <a href="#">Buat Event</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content_footer_top">
+      <div class="wraping_inner footer_flex_display">
+        <div class="column_footer">
+          <img src="../style/images_universal/logo/logo_orange.svg" alt="" />
+        </div>
+        <div class="column_footer">
+          <div class="tittle">Tiketin.com</div>
+          <a href="#">Tentang Kami</a>
+          <a href="#">Hubungi Kami</a>
+        </div>
+        <div class="column_footer">
+          <div class="tittle">Event Owner</div>
+          <a href="#">Buat Event</a>
+          <a href="#">Cara Buat Event</a>
+          <a href="#">Login</a>
+          <a href="#">Daftar</a>
+        </div>
+        <div class="column_footer">
+          <div class="tittle">Kategori</div>
+          <a href="#">Stand Up Comedy</a>
+          <a href="#">Musik</a>
+        </div>
+        <div class="column_footer">
+          <div class="tittle">Social Media</div>
+          <div class="wrap_image">
+            <img src="../style/images_universal/icon/facebook.svg" alt="" />
+            <img src="../style/images_universal/icon/twitter.svg" alt="" />
+            <img src="../style/images_universal/icon/youtube.svg" alt="" />
+            <img src="../style/images_universal/icon/instagram.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content_footer_bottom">
+      <p>Copyright @ 2023</p>
+    </div>
+
+    <!-- Modal login -->
+    <div
+      class="modal fade modal_login_beranda"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="staticBackdropLabel">Masuk Akun</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="wrap_container_input">
+              <label for="email">Nama Pengguna</label>
+              <div class="wrap_input">
+                <input placeholder="Masukkan nama pengguna..." type="text" />
+              </div>
+            </div>
+            <div class="wrap_container_input">
+              <label for="email">Kata Sandi</label>
+              <div class="wrap_input">
+                <input
+                  id="myInput"
+                  placeholder="Masukkan kata sandi..."
+                  type="Pssword"
+                />
+              </div>
+
+              <div class="link_lupa_sandi">
+                <div class="left">
+                  <input type="checkbox" name="" id="lupa" />
+                  <label for="lupa">Ingat Saya</label>
+                </div>
+                <div class="right"><a href="#">Lupa kata sandi?</a></div>
+              </div>
+            </div>
+
+            <button id="myButton" disabled class="btn_push">Masuk</button>
+
+            <div class="line"></div>
+            <div class="text_line"><p>atau daftar dengan</p></div>
+            <a class="link_google" href="#">
+              <div class="wrap_conatiner_google">
+                <img
+                  src="../style/images_universal/logo/logo_google.svg"
+                  alt=""
+                />
+                <h2>Masuk dengan Google</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Modal promo -->
+    <div
+      class="modal fade modal_login_beranda"
+      id="staticBackdropdua"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="staticBackdropLabel">Pakai Promo</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="wrap_input_promo">
+              <div class="wrap_input">
+                <input id="myInput2" placeholder="Masukkan kode promo..." type="text">
+              </div>
+              <button id="myButton2" disabled>Cari</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../style/beranda/js/detail_event.js"></script>
+    <script src="../style/beranda/js/landingpage.js"></script>
+    <script src="../style/auth/js/button_disable2.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+   
+  </body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/dashboard/dashboard.css" />
+    <title>dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <input type="checkbox" id="check" />
+
+      <label for="check" class="iconside">
+        <i class="fas fa-bars" id="btn"></i>
+      </label>
+
+      <div class="sidebar">
+        <div class="logo">
+          <img src="../style/images_universal/logo/logo_orange.svg" alt="" />
+        </div>
+
+        <div class="menu">
+          <a href="/admin/dashboard">
+            <p>
+              <img src="../style/images_universal/icon/dashboard.svg" alt="" />
+              <span>Dashboard</span>
+            </p>
+          </a>
+        </div>
+        <div class="wrap_menu">
+          <div class="menu2 top_border">
+            <a href="#">
+              <p>
+                <span>Management</span>
+              </p>
+            </a>
+          </div>
+          <div class="menu2">
+            <a href="/admin/dashboard">
+              <p>
+                <img src="../style/images_universal/icon/event.svg" alt="" />
+                <span>Event Saya</span>
+              </p>
+            </a>
+          </div>
+          <div class="menu2">
+            <a href="/admin/dashboard">
+              <p>
+                <img
+                  src="../style/images_universal/icon/personalcard.svg"
+                  alt=""
+                />
+                <span>Informasi Event Owner</span>
+              </p>
+            </a>
+          </div>
+          <div class="menu2">
+            <a href="/admin/dashboard">
+              <p>
+                <img
+                  src="../style/images_universal/icon/documentcopy.svg"
+                  alt=""
+                />
+                <span>Dokumen Legalitas</span>
+              </p>
+            </a>
+          </div>
+          <div class="menu2">
+            <a href="/admin/dashboard">
+              <p>
+                <img src="../style/images_universal/icon/bank.svg" alt="" />
+                <span>Rekening</span>
+              </p>
+            </a>
+          </div>
+          <div class="menu2">
+            <a href="/admin/dashboard">
+              <p>
+                <img
+                  src="../style/images_universal/icon/passwordcheck.svg"
+                  alt=""
+                />
+                <span>Ganti Password</span>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar">
+        <div class="left">
+          <h2>Dashboard</h2>
+        </div>
+        <div class="right">
+          <a href="#">
+            <img
+              src="../style/images_universal/icon/arrangehorizontalsquare.svg"
+              alt=""
+            />
+            <span>Beralih Jadi Pembeli</span>
+          </a>
+          <a href="#" class="btn_event"> Buat Event </a>
+          <div class="wrap_profile">
+            <img src="../style/images_universal/icon/wrap_profile.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- isi ======================================== -->
+
+      <section>
+        <div class="dashboard_event_user">
+          <div class="navigator_info">
+            Dashboard Event Owner / <span>Ganti Kata Sandi</span>
+          </div>
+
+          <div class="event_saya">Ganti Kata Sandi</div>
+          <div class="dashboard_owner_user">
+            <div class="wrap_inner_input">
+              <label for="email"
+                >Jenis Kelamin <span class="danger">*</span></label
+              >
+              <div class="wrap_input">
+                <input placeholder="Username" type="text" />
+              </div>
+
+              <label for="email"
+                >Jenis Kelamin <span class="danger">*</span></label
+              >
+              <div class="wrap_input">
+                <input placeholder="Username" type="text" />
+              </div>
+
+              <label for="email"
+                >Jenis Kelamin <span class="danger">*</span></label
+              >
+              <div class="wrap_input">
+                <input placeholder="Username" type="text" />
+              </div>
+
+              <div class="wrap_btn_promo">
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                  class="btn_selesai_promo"
+                >
+                  Simpan
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end isi ======================================== -->
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade modal_login_beranda"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="staticBackdropLabel">
+              Konfirmasi Ganti Kata Sandi
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="text_legalitas_modal">
+              Anda yakin untuk menyimpan pergantian kata sandi akun anda?
+
+              <div class="row btn_legalitas_modal">
+                <div class="col-6">
+                  <button class="btn_left">Batal</button>
+                </div>
+                <div class="col-6">
+                  <button class="btn_right">Simpan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="style/dashboardEvent.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
